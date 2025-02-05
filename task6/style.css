@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    background-color: rgb(59, 51, 117);
+    justify-content: space-around;
+    align-items: center;
+       div{
+        font-size: 23px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       p{
+        display: inline;
+        margin-left: 18px ;
+       }
+       p:hover{
+        color:rgb(143, 112, 255);
+       }
+    
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(143, 112, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-around;
+    height: 800px;
+}
+.section3{
+    color: rgb(143, 112, 255);
+    
+}
+.box1{
+    img{
+        width: 350px;
+        height: 250px;
+        border-radius: 10%;
+        padding: 20px 10px;
+    }
+    
+}
+.section4{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(143, 112, 255) ;
+    height: 600px;
+    
+    
+}
+.button{
+    padding: 15px 40px;
+    background-color: rgb(143, 112, 255);
+    border-color: white;
+    border-radius: 7%;
+    color: white;
+}
+
+.button:hover{
+    background-color: white;
+    color:  rgb(143, 112, 255);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     p{
+        font-size: 30px;
+        
+    
+     }
+    
+
+
+
+    }
+form input{
+    padding: 30px 250px;
+    margin-top: 5px;
+    border: none;  
+    border-bottom: 2px solid #333;
+    color: black;
+    
+
+}
+.section6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 112, 255);
+    height: 400px;
+    margin-top: 10px;
+    div{
+        margin: 40px 50px;
+        width: 200px;
+        height: 100px;
+    }
+    div i{
+        color: white;
+        
+    }
+    
+}
+.p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.p2{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(59, 51, 117) ;
+    font-size: 25px;
+    height: 80px;
+}
